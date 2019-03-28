@@ -1,7 +1,7 @@
 # Automated-Recovery-of-Damaged-Audio-Files-Using-Deep-Neural-Networks
 
-Requirements
-######################################
+## Requirements
+
 python 3.X           https://www.python.org/downloads/
 python libraries:
   tensorflow         https://www.tensorflow.org/install/?hl=ko
@@ -9,7 +9,7 @@ python libraries:
   tqdm               https://pypi.org/project/tqdm/
   sklearn            https://scikit-learn.org/stable/install.html
   scipy              https://www.scipy.org/install.html
-######################################
+
 
 
 Test environments
