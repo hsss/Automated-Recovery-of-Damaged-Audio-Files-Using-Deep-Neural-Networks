@@ -1,22 +1,29 @@
 # Automated-Recovery-of-Damaged-Audio-Files-Using-Deep-Neural-Networks
 
+## Getting started
+Run each script sequentially.
+
+```
+python 00-refine_db.py
+
+python 01-train_model.py
+
+python 02-decoding_case.py
+```
+
 ## Requirements
 
-python 3.X           https://www.python.org/downloads/
-python libraries:
-  tensorflow         https://www.tensorflow.org/install/?hl=ko
-  keras              https://keras.io/#installation
-  tqdm               https://pypi.org/project/tqdm/
-  sklearn            https://scikit-learn.org/stable/install.html
-  scipy              https://www.scipy.org/install.html
+python 3.X, tensorflow, keras, numpy
+  
+## Test environments
 
-
-
-Test environments
-######################################
 OS	 		: ubunbu 16.04LTS
+
 python		: 3.5.2
+
 tensorflow	: 1.7.0
+
 keras		: 2.2.4
+
 ngc			: Docker version 18.06.0-ce, build 0ffa825
-######################################
+
