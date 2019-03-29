@@ -1,10 +1,22 @@
 # Automated-Recovery-of-Damaged-Audio-Files-Using-Deep-Neural-Networks
 
 ## Getting started
-Run each script sequentially.
+Collect your own data under the path './DB', and run each script sequentially.
 
 ```
 python 00-refine_db.py
+
+python 01-train_model.py
+
+python 02-decoding_case.py
+```
+
+OR
+
+Download small refined data, and run each script sequentially.
+
+```
+./prepare_small_data.sh
 
 python 01-train_model.py
 
