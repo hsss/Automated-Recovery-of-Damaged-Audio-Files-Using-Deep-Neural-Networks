@@ -1,4 +1,4 @@
-# Automated-Recovery-of-Damaged-Audio-Files-Using-Deep-Neural-Networks
+# Automated Recovery of Damaged Audio Files Using Deep Neural Networks
 
 ## Getting started
 Collect your own data under the path './DB', and run each script sequentially.
